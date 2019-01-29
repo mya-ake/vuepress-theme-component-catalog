@@ -9,9 +9,13 @@
   "author": "mya-ake <make.app.ts@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "lint": "vue-cli-service lint --ext .js,.vue --ignore-path .gitignore .",
     "release": "np"
   },
   "devDependencies": {
+    "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-service": "^3.3.1",
+    "@vue/eslint-config-prettier": "^4.0.1",
     "np": "^4.0.2"
   }
 }
