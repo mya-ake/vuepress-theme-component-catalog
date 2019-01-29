@@ -1,5 +1,10 @@
+const path = require('path');
+
 module.exports = ({ catalogOption = {}, catalog = true }) => {
-  const plugins = [];
+  const plugins = [
+    'register-components',
+    { componentsDir: path.resolve(__dirname, 'components') },
+  ];
 
   const options = {
     ...catalogOption,
