@@ -23,4 +23,14 @@
   left: 0;
   background: #eee;
   padding: 2px 4px 3px;
-  font-size: 14px;}
+  font-size: 14px;
+}
+
+.vpcc-grid-view__item-front-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+}
