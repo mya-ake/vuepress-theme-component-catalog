@@ -1,9 +1,8 @@
 const path = require('path');
 
 module.exports = ({ catalogOption = {}, catalog = true }) => {
-  console.log(path.resolve(__dirname, 'components'));
   const plugins = [
-    'register-components',
+    '@vuepress/register-components',
     { componentsDir: path.resolve(__dirname, 'components') },
   ];
 
