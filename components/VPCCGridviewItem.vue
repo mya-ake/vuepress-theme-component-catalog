@@ -4,6 +4,6 @@
 
 <script>
 export default {
-  name: 'VPCCGridviewItem',
+  name: 'VpccGridViewItem',
 };
 </script>
