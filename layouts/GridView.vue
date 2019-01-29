@@ -14,12 +14,9 @@
       <slot slot="bottom" name="sidebar-bottom" />
     </Sidebar>
 
-    <Home v-if="$page.frontmatter.home" />
-
-    <Page v-else :sidebar-items="sidebarItems">
-      <slot slot="top" name="page-top" />
-      <slot slot="bottom" name="page-bottom" />
-    </Page>
+    <div class="vpcc-grid-view">
+      <Content />
+    </div>
   </div>
 </template>
 
@@ -113,3 +110,4 @@ export default {
 
 <style src="prismjs/themes/prism-tomorrow.css"></style>
 <style src="@vuepress/theme-default/styles/theme.styl" lang="stylus"></style>
+<style src="../styles/grid-view.scss" lang="scss"></style>

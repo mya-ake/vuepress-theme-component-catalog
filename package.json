@@ -10,7 +10,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "vue-cli-service lint --ext .js,.vue --ignore-path .gitignore .",
-    "release": "np patch --yolo"
+    "release": "np --yolo"
   },
   "devDependencies": {
     "@vue/cli-plugin-eslint": "^3.3.0",
