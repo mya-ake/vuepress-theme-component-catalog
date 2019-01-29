@@ -14,7 +14,7 @@
       <slot slot="bottom" name="sidebar-bottom" />
     </Sidebar>
 
-    <div class="vpcc-grid-view">
+    <div class="vpcc-grid-view-wrapper">
       <Content />
     </div>
   </div>
