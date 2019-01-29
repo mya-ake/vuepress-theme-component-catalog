@@ -2,8 +2,25 @@
 
 .vpcc-grid-view {
   display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 120px;
+  gap: 24px;
+  padding: 24px 0;
 }
 
 .vpcc-grid-view__item {
-
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 3px;
 }
+
+.vpcc-grid-view__item-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #eee;
+  padding: 2px 4px 3px;
+  font-size: 14px;}
