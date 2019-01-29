@@ -1,0 +1,14 @@
+{
+  "name": "vuepress-theme-component-catalog",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mya-ake/vuepress-theme-component-catalog.git",
+  "bugs": {
+    "url": "https://github.com/mya-ake/vuepress-theme-component-catalog/issues"
+  },
+  "author": "mya-ake <make.app.ts@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "np": "^4.0.2"
+  }
+}
