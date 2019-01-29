@@ -8,6 +8,9 @@
   },
   "author": "mya-ake <make.app.ts@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "release": "np"
+  },
   "devDependencies": {
     "np": "^4.0.2"
   }
